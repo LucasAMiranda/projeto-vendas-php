@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo">FAÇA SEU CADASTRO</h1>
+    <br><br><br><br>
+    <form action="cadastro.php" method="post">
+        <div>
+            <label for="nome">Seu Nome</label>
+            <input type="text" name="nome" required>
+
+            <label for="sobrenome">SobreNome</label>
+            <input type="text" name="sobrenome" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="number" name="telefone" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" required>
+            
+            <label for="senha">Crie uma senha</label>
+            <input type="password" name="senha" required>
+          
+            <button id="botaoform" type="submit">ENVIAR</button>
+        </div>
+    </form>
+
+    <a href="login.html"><button class="sair">Sair</button></a>
+</body>
+</html>
